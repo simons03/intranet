@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": "ece67d21-b273-4bd0-b3ef-e6fbac8448d6",
+      "text": "Ringa elektrikern",
+      "active": false,
+      "person": "Emil Eriksson"
+    },
+    {
+      "id": "926e6a68-203b-415d-bd27-fd1cb9f25dcc",
+      "text": "Plocka ur diskmaskinen",
+      "active": false,
+      "person": "Johanna Nyström"
+    }
+  ]
+}
