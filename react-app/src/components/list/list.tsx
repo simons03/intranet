@@ -93,16 +93,14 @@ export default function List({
               </p>
             </DigiTypography>
           ) : (
-            <form>
-              <DigiFormInput
-                afLabel=""
-                afVariation={FormInputVariation.MEDIUM}
-                afType={FormInputType.TEXT}
-                afValidation={FormInputValidation.NEUTRAL}
-                value={text}
-                onAfOnChange={handleChangeText}
-              ></DigiFormInput>
-            </form>
+            <DigiFormInput
+              afLabel=""
+              afVariation={FormInputVariation.MEDIUM}
+              afType={FormInputType.TEXT}
+              afValidation={FormInputValidation.NEUTRAL}
+              value={text}
+              onAfOnChange={handleChangeText}
+            ></DigiFormInput>
           )}
         </td>
         <td>
@@ -113,16 +111,14 @@ export default function List({
               </p>
             </DigiTypography>
           ) : (
-            <form>
-              <DigiFormInput
-                afLabel=""
-                afVariation={FormInputVariation.MEDIUM}
-                afType={FormInputType.TEXT}
-                afValidation={FormInputValidation.NEUTRAL}
-                value={person}
-                onAfOnChange={handleChangePerson}
-              ></DigiFormInput>
-            </form>
+            <DigiFormInput
+              afLabel=""
+              afVariation={FormInputVariation.MEDIUM}
+              afType={FormInputType.TEXT}
+              afValidation={FormInputValidation.NEUTRAL}
+              value={person}
+              onAfOnChange={handleChangePerson}
+            ></DigiFormInput>
           )}
         </td>
         <td>
@@ -132,7 +128,8 @@ export default function List({
             afFullWidth={false}
             onAfOnClick={() => setEdit(!edit)}
           >
-            {" "}{edit ? "Spara" : "Ändra"}{" "}
+            {" "}
+            {edit ? "Spara" : "Ändra"}{" "}
           </DigiButton>
         </td>
         <td>
